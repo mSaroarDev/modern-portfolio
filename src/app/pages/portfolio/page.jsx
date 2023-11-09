@@ -9,6 +9,10 @@ import HomeCompletedProjectsCard from "@/components/sub-components/HomeCompleted
 import BlogandOffer from "@/components/sub-components/BlogandOffer";
 import HomeTestimonialCard from "@/components/sub-components/HomeTestimonialCard";
 import Footer from "@/components/sub-components/Footer";
+import TopShowcase from "@/components/sub-components/showcase-cards/TopCard";
+import SecondShowcase from "@/components/sub-components/showcase-cards/secondshowcase";
+import DoubleCard from "@/components/sub-components/showcase-cards/DoubleCol";
+import BottomShowcase from "@/components/sub-components/showcase-cards/BottomCard";
 
 export default function Homepage() {
   return (
@@ -16,20 +20,21 @@ export default function Homepage() {
       <Navbar />
       <div className="w-full max-w-7xl mx-auto py-12 px-5">
         <div className="grid grid-cols-12">
-          <div className="col-span-12 lg:col-span-3 bg-dark rounded-[20px] mb-5 lg:mb-0 h-fit">
+          <div className="hidden lg:block col-span-12 lg:col-span-3 bg-dark rounded-[20px] mb-5 lg:mb-0 h-fit">
             <LeftDetails />
           </div>
+
           <div className="col-span-12 lg:col-span-9 lg:ml-[30px] text-white">
             {/* top card */}
-            <TopCard1 />
+            <TopShowcase />
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
               <div className="col-span-12 lg:col-span-5">
                 {/* left 1st card */}
-                <HomeAboutCard />
+                <SecondShowcase />
 
                 {/* left 2nd card */}
-                <HomeSkillCard />
+                <SecondShowcase />
 
                 {/* left 3rd card */}
                 <HomeCompletedProjectsCard />
@@ -37,13 +42,13 @@ export default function Homepage() {
               {/* right side */}
               <div className="col-span-12 lg:col-span-7">
                 {/* showcase card */}
-                <HomeShowcaseCard des="My Projects" linkText="See Projects" />
+                <HomeShowcaseCard des="See my projects" linkText="All Projects" />
 
                 {/* blog and offer */}
-                <BlogandOffer />
+                <DoubleCard />
 
                 {/* testimonial */}
-                <HomeTestimonialCard />
+                <BottomShowcase />
               </div>
             </div>
           </div>

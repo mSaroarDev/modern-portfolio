@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import showcase from "public/showcase.png";
 
-export default function HomeShowcaseCard() {
+export default function HomeShowcaseCard({des, linkText}) {
   return (
     <>
       <Link href={"/"}>
@@ -28,9 +28,9 @@ export default function HomeShowcaseCard() {
               />
             </div>
           </div>
-          <p className="mt-10 mb-1">My Project Showcase Summery</p>
+          <p className="mt-10 mb-1">{des}</p>
           <h1 className="text-2xl flex items-center justify-between gap-3 font-bebas tracking-widest">
-            See Projects
+            {linkText}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

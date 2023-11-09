@@ -50,12 +50,13 @@ img.vert-move {
     }
   }
 
-  /* scrolbar */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
+  @apply bg-semiDark; /* Set the background color to black */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #58595d;
+  background: white; /* Set the scrollbar thumb color to white */
   border-radius: 10px;
 }
