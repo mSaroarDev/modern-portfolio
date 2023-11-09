@@ -12,9 +12,6 @@ export default function ServiceCard({ icon, title, short_des }) {
         <div className="card-body">
           <h2 className="card-title mb-1">{title}</h2>
           <p>{short_des}</p>
-          {/* <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
-                  </div> */}
         </div>
       </div>
     </>

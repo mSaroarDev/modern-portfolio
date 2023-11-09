@@ -22,7 +22,7 @@ export default function TypeText() {
             .changeDelay(50) // Adjust typing speed as needed
             .pauseFor(1000)
             .deleteAll()
-            .typeString("Muhammad Saroar")
+            .typeString("")
             .start();
         }}
       />

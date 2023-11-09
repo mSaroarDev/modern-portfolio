@@ -3,6 +3,8 @@ import fbimage from "public/fb.svg";
 import githubimage from "public/github.svg";
 import linkedimage from "public/linked.svg";
 import Image from "next/image";
+import papermail from 'public/papermail.svg'
+import download from 'public/download.svg'
 
 export default function LeftDetails() {
   return (
@@ -28,10 +30,14 @@ export default function LeftDetails() {
           </div>
         </div>
         <div className="contact___button mt-5 text-center flex lg:flex-col gap-3 lg:gap-0">
-          <button className="btn bg-brandColor rounded-full px-10 outline-none border-0 my-2">
+          <button className="btn bg-brandColor rounded-full px-10 outline-none border-0 my-2 flex items-center justify-center gap-2">
+            <Image src={papermail} height={25} width={25} alt="Send"  />
+            
             Contact Now
           </button>
           <button className="btn bg-semiDark text-white hover:bg-dark rounded-full px-10 outline-none border-0 my-2">
+          <Image src={download} height={20} width={20} alt="Send"  />
+            
             Download CV
           </button>
         </div>
