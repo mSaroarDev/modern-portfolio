@@ -5,7 +5,7 @@ import showcase from "public/showcase.png";
 export default function HomeShowcaseCard({des, linkText}) {
   return (
     <>
-      <Link href={"/"}>
+      <Link href={"/pages/portfolio"}>
         <div className="w-full bg-dark p-8 rounded-[20px] mb-8 hover:bg-brandColor/5 duration-300">
           <div className="showcase___images flex items-center justify-center gap-5">
             <div className="image__1 overflow-hidden w-[180px] h-auto rounded-lg">
