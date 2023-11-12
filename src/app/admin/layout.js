@@ -1,6 +1,5 @@
 import AdminSidebar from "@/components/sub-components/AdminSidebar";
 import "./../globals.css";
-import SideNavbar from "@/components/sub-components/SideNavbar";
 
 export const metadata = {
   title: "Dashboard",
