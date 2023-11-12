@@ -71,7 +71,7 @@ export default async function AdminSidebar() {
             </Link>
             <Link
               className="sideLink"
-              href={process.env.NEXT_PUBLIC_BASE_URL + "/admin/profile"}
+              href={process.env.NEXT_PUBLIC_BASE_URL + "/admin/projects"}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

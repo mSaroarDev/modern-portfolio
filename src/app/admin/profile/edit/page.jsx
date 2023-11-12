@@ -5,7 +5,7 @@ export default function EditProfile() {
         <form className="flex flex-col gap-3">
           <div className="flex flex-col w-full border-opacity-50">
             <div className="grid bg-dark card rounded-box p-10">
-              <h3 className="text-xl font-bold mb-10  text-white">Personal Information</h3>
+              <h3 className="text-xl mb-10 font-bebas tracking-wider text-white">Personal Information</h3>
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className=" text-white">Name</label>
                 <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
@@ -17,7 +17,7 @@ export default function EditProfile() {
             </div>
             <div className="divider">OR</div>
             <div className="grid bg-dark card rounded-box p-10">
-              <h3 className="text-xl font-bold mb-10  text-white">Contact Information</h3>
+              <h3 className="text-xl mb-10 font-bebas tracking-wider text-white">Contact Information</h3>
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className=" text-white">Whatsapp</label>
                 <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
@@ -28,7 +28,7 @@ export default function EditProfile() {
             </div>
             <div className="divider">OR</div>
             <div className="grid bg-dark card rounded-box p-10">
-              <h3 className="text-xl font-bold mb-10  text-white">Projects Details</h3>
+              <h3 className="text-xl mb-10 font-bebas tracking-wider text-white">Projects Details</h3>
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className=" text-white">Facebook</label>
                 <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
@@ -42,7 +42,7 @@ export default function EditProfile() {
             </div>
             <div className="divider">OR</div>
             <div className="grid bg-dark card rounded-box p-10">
-              <h3 className="text-xl font-bold mb-10  text-white">Porject Information</h3>
+              <h3 className="text-xl mb-10 font-bebas tracking-wider text-white">Porject Information</h3>
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className=" text-white">Experience</label>
                 <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-lg" />
