@@ -18,7 +18,7 @@ export default function LeftDetails() {
           alt="MyImage"
         />
         <p className="mt-4 text-slate-200">Hello, I am</p>
-        <h1 className="font-bold text-[22px] uppercase">Himu Khatun</h1>
+        <h1 className="font-bold text-[22px] uppercase">Saroar Jahan</h1>
         <p>Web Developer</p>
         <div className="mt-10">
           <div>msaroar.dev@gmail.com</div>
