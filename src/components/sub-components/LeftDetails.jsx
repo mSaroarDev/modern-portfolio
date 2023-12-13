@@ -1,4 +1,3 @@
-import myImage from "public/main.png";
 import fbimage from "public/fb.svg";
 import githubimage from "public/github.svg";
 import linkedimage from "public/linked.svg";
@@ -12,7 +11,7 @@ export default function LeftDetails() {
       <div className="p-8 flex flex-col gap-2 items-center justify-start text-white w-full h-fit">
         <Image
           className="hero-img vert-move"
-          src={myImage}
+          src="/my_image_prof.png"
           width={350}
           height={350}
           alt="MyImage"
